@@ -1,16 +1,18 @@
 import Profile from '../components/Profile/Profile'
 import userData from '../userData.json'
+import FriendList from '../components/FriendList/FriendList'
+import friend from '../friend.json'
+import TransactionHistory from '../components/TransactionHistory/TransactionHistory'
+import transactions from '../transactions.json'
+import css from './App.module.css'
+
 
 export default function App(){
     return(
-      <>
-      <Profile 
-        name={userData.username}
-        tag={userData.tag}
-        location={userData.location}
-        image={userData.avatar}
-        stats={userData.stats} 
-        />
-      </>
+      <div className={css.container}>
+      <Profile userdata = {userData} />
+      <FriendList friends={friend} />
+      <TransactionHistory items={transactions}/>
+      </div>
     );
   }
