@@ -1,0 +1,28 @@
+.table{
+   display: flex;
+   flex-direction: column;
+   gap:0px;
+   border: 2px solid rgba(0,0, 0, 1);
+   width: 500px;
+   background-color: rgba(211,211,211,1);
+   text-align: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(58,58,58,1);
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.columnHead{
+    
+}
+
+.columnBody{
+   
+}

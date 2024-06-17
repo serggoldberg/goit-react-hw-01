@@ -1,0 +1,8 @@
+.panel{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    list-style-type: none;
+    padding: 0px;
+    align-items: center;
+}
