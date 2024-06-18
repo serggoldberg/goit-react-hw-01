@@ -5,6 +5,7 @@ import friend from '../friend.json'
 import TransactionHistory from '../components/TransactionHistory/TransactionHistory'
 import transactions from '../transactions.json'
 import css from './App.module.css'
+import "modern-normalize";
 
 
 export default function App(){
