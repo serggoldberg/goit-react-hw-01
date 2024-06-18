@@ -1,28 +1,31 @@
 .table{
-   display: flex;
-   flex-direction: column;
-   gap:0px;
-   border: 2px solid rgba(0,0, 0, 1);
-   width: 500px;
-   background-color: rgba(211,211,211,1);
-   text-align: center;
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
 }
 
 .head{
-    display: flex;
-    flex-direction: row;
     background-color: rgba(58,58,58,1);
-}
-
-.text{
-    display: flex;
-    justify-content: center;
+    color: rgb(255, 255, 255,1);
 }
 
 .columnHead{
-    
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,1)
 }
 
 .columnBody{
-   
+    padding: 10px;
+    padding-left: 60px;
+    text-align: left;
+    border: 1px solid rgba(0,0,0,1)
+}
+
+.cells:nth-child(even){
+    background-color: rgba(211,211,211,0.5);
+}
+
+.cells:nth-child(odd){
+    background-color: rgba(165,165,165,1);
 }
